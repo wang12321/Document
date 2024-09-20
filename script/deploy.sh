@@ -21,4 +21,4 @@ git push -f https://github.com/wang12321/Document.git master:gb-pages
 cd ../../../
 git add .
 git commit -m 'update'
-git push --set-upstream origin master
+git push origin master
