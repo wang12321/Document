@@ -1,0 +1,1 @@
+import{m as e,ah as t}from"./framework.knSMbouM.js";const r=e({name:"expandDom",props:{render:Function,item:{type:Object,default:()=>{}}},render(){return this.render(t,this.item)}});export{r as default};
