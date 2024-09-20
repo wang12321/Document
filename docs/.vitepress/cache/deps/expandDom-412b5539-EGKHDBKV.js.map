@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../node_modules/jmc-ele-component-vue3/lib/expandDom-412b5539.mjs"],
+  "sourcesContent": ["import { defineComponent, h } from \"vue\";\nconst expandDom = /* @__PURE__ */ defineComponent({\n  name: \"expandDom\",\n  props: {\n    render: Function,\n    item: {\n      type: Object,\n      default: () => {\n      }\n    }\n  },\n  render() {\n    return this.render(h, this.item);\n  }\n});\nexport {\n  expandDom as default\n};\n"],
+  "mappings": ";;;;;;;AACA,IAAM,YAA4B,gBAAgB;AAAA,EAChD,MAAM;AAAA,EACN,OAAO;AAAA,IACL,QAAQ;AAAA,IACR,MAAM;AAAA,MACJ,MAAM;AAAA,MACN,SAAS,MAAM;AAAA,MACf;AAAA,IACF;AAAA,EACF;AAAA,EACA,SAAS;AACP,WAAO,KAAK,OAAO,GAAG,KAAK,IAAI;AAAA,EACjC;AACF,CAAC;",
+  "names": []
+}

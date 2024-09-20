@@ -1,0 +1,52 @@
+{
+  "hash": "dc522c46",
+  "configHash": "e46ac671",
+  "lockfileHash": "51d692b3",
+  "browserHash": "a8a13868",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "00e98f9d",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../node_modules/vitepress/node_modules/@vue/devtools-api/dist/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "7d228246",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../../node_modules/vitepress/node_modules/@vueuse/core/index.mjs",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "8b6b8f66",
+      "needsInterop": false
+    },
+    "element-plus": {
+      "src": "../../../../node_modules/element-plus/es/index.mjs",
+      "file": "element-plus.js",
+      "fileHash": "e90eda92",
+      "needsInterop": false
+    },
+    "jmc-ele-component-vue3/lib/index.es.ts": {
+      "src": "../../../../node_modules/jmc-ele-component-vue3/lib/index.es.ts",
+      "file": "jmc-ele-component-vue3_lib_index__es__ts.js",
+      "fileHash": "a586185e",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-O3YQPVDG": {
+      "file": "chunk-O3YQPVDG.js"
+    },
+    "expandDom-412b5539-EGKHDBKV": {
+      "file": "expandDom-412b5539-EGKHDBKV.js"
+    },
+    "chunk-YNPXIQKL": {
+      "file": "chunk-YNPXIQKL.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
+    }
+  }
+}
