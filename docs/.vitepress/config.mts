@@ -15,10 +15,17 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '表单组件',
+        text: 'Form组件',
         items: [
           { text: '弹框表单', link: '/component/dialogForm' },
           { text: '查询表单', link: '/component/searchForm' }
+        ]
+      },
+      {
+        text: 'Table组件',
+        items: [
+          { text: '表格', link: '/component/table' },
+          { text: '分页', link: '/component/pagination' },
         ]
       }
     ],
@@ -30,6 +37,7 @@ export default defineConfig({
       }
     ]
   },
+  // @ts-ignore
   optimizeDeps: {
     include: ['element-plus/dist/index.esm.js']
   },

@@ -198,7 +198,7 @@ const state = reactive({
               describe: '必传, 表单项type',
               type: 'String',
               default:
-                  "['input','select','month','year','cascader','date','daterange','datetimerange','dateH',','time','datetime','radio','checkbox','inputNumber','datePicker','slot']",
+                  "['input','select','month', 'year', 'cascader','date', 'daterange', 'datetimerange', 'dateH', 'time', 'datetime', 'radio','checkbox', 'inputNumber', 'datePicker', 'slot']",
               mandatory: true
             },
             {
