@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // @ts-ignore
 export default defineConfig({
   title: "文档中心",
-  base: './',
+  base: '/Document/',
   description: "文档中心",
   // 确保正确引用了你的主题文件
   themeConfig: {
