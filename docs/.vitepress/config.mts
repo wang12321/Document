@@ -27,6 +27,12 @@ export default defineConfig({
           { text: '表格', link: '/component/table' },
           { text: '分页', link: '/component/pagination' },
         ]
+      },
+      {
+        text: 'page组件',
+        items: [
+          { text: '组合页面', link: '/component/table' },
+        ]
       }
     ],
 
