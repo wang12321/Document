@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 // @ts-ignore
 export default defineConfig({
+  appearance:'dark',
   title: "文档中心",
   base: '/Document/',
   description: "文档中心",

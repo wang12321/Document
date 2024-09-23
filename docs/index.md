@@ -14,10 +14,10 @@ hero:
       link: /sdk/gateway
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 组合页面组件
+    link: /component/page
+    details: 包含了搜索组件，表格组件，分页组件的组合页面
+  - title: 网关管理SDK
+    link: /sdk/gateway
+    details: 集成网关服务
 ---
