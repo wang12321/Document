@@ -13,28 +13,44 @@ export default defineConfig({
       { text: '组件库文档', link: '/component/dialogForm' }
     ],
 
-    sidebar: [
-      {
-        text: 'Form组件',
-        items: [
-          { text: '弹框表单', link: '/component/dialogForm' },
-          { text: '查询表单', link: '/component/searchForm' }
-        ]
-      },
-      {
-        text: 'Table组件',
-        items: [
-          { text: '表格', link: '/component/table' },
-          { text: '分页', link: '/component/pagination' },
-        ]
-      },
-      {
-        text: 'page组件',
-        items: [
-          { text: '组合页面', link: '/component/table' },
-        ]
-      }
-    ],
+    sidebar: {
+      '/component/': [
+        {
+          text: 'Form组件',
+          items: [
+            { text: '弹框表单', link: '/component/dialogForm' },
+            { text: '查询表单', link: '/component/searchForm' }
+          ]
+        },
+        {
+          text: 'Table组件',
+          items: [
+            { text: '表格', link: '/component/table' },
+            { text: '分页', link: '/component/pagination' },
+          ]
+        },
+        {
+          text: 'page组件',
+          items: [
+            { text: '组合页面', link: '/component/page' },
+          ]
+        }
+      ],
+      '/sdk/': [
+        {
+          text: '网关管理SDK',
+          items: [
+            { text: '集成文档', link: '/sdk/gateway' },
+          ]
+        },
+        {
+          text: '系统管理SDK',
+          items: [
+            { text: '集成文档', link: '/sdk/system' },
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
       {

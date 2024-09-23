@@ -11,7 +11,7 @@ hero:
       link: /component/dialogForm
     - theme: alt
       text: API 文档
-      link: /api-examples
+      link: /sdk/gateway
 
 features:
   - title: Feature A
