@@ -1,0 +1,1 @@
+import{x as e,af as t}from"./framework.DKRhNpUu.js";const r=e({name:"expandDom",props:{render:Function,item:{type:Object,default:()=>{}}},render(){return this.render(t,this.item)}});export{r as default};
